@@ -1,0 +1,8 @@
+pages\ShoppingCartPage.class
+common\CommonPage.class
+pages\BeginCheckoutPage.class
+common\BaseTest.class
+pages\Payments.class
+pages\HomePage.class
+tests\CheckOutFlowTest.class
+common\WebTest.class

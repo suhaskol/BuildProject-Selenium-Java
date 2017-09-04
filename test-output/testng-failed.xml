@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Suite]" parallel="methods">
+  <parameter name="browser" value="Chrome"/>
+  <test name="U1.0-Tests(failed)" parallel="methods">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="tests.CheckOutFlowTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="verifyCheckOutFlow"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- tests.CheckOutFlowTest -->
+    </classes>
+  </test> <!-- U1.0-Tests(failed) -->
+</suite> <!-- Failed suite [Suite] -->

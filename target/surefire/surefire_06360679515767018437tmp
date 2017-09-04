@@ -1,0 +1,8 @@
+#surefire_0
+#Fri Feb 10 17:45:21 IST 2017
+Test_NG_XML=src/test/resources/buildCheckOutTest.xml
+skip.unit.tests=false
+user.dir=E\:\\MyOwnWorkSpace\\build
+webdriver.chrome.driver=C\:\\AllInOne\\SeleniumDrivers\\chrome\\chromedriver.exe
+localRepository=C\:\\Users\\csudheer\\.m2\\repository
+basedir=E\:\\MyOwnWorkSpace\\build
